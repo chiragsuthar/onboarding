@@ -26,10 +26,13 @@ The project aims to streamline the customer onboarding process by allowing users
 ### Setup
 
 1. Clone the repository:
+   
    ```
    git clone <repository_url>
    cd customer_onboarding_project
+   
 3. Create a virtual environment and activate it:
+   
    ```
    For Windows
    python -m venv env
@@ -39,21 +42,27 @@ The project aims to streamline the customer onboarding process by allowing users
    For Linux/mac
    python -m venv env
    source env/bin/activate
-4. Install dependencies:
+   
+5. Install dependencies:
+   
    ```
    pip install -r requirements.txt
-5. Configure AWS credentials:
+   
+7. Configure AWS credentials:
 - Set up your AWS credentials in your local environment. You can do this by using AWS CLI (`aws configure`) or setting environment variables.
 
 6. Run migrations:
+   
    ```
    python manage.py makemigrations
    python manage.py migrate
-7. Start the development server:
+   
+8. Start the development server:
+   
    ```
    python manage.py runserver
    
-8. Open your browser and go to `http://127.0.0.1:8000` to access the application.
+10. Open your browser and go to `http://127.0.0.1:8000` to access the application.
 
 ## Usage
 
